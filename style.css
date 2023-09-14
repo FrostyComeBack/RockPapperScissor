@@ -1,0 +1,184 @@
+body{ 
+  width: 100%;
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+  background-color: #070606;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#header{
+    width: 50%;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
+    margin: 12px 25% 12px 25%;
+    padding: 15px;
+}
+#main{
+    width: 60%;
+    text-align: center;
+    margin: 12px 20% 12px 20%;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    border-radius: 6px;
+    padding: 15px;
+}
+#user{
+    color:#0F0;
+}
+#computer{
+    color:#F00;
+}
+#resultx{
+    color:#00CCFF;
+}
+button{
+    width: 174px;
+    height: 140px;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    color:#FFF;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 1s;
+    
+}
+button:hover{
+    text-transform: 15;
+    scale: 90%;
+}
+#papier{
+    background-image: url("images/papper.png");
+}
+#kamien{
+    background-image: url("images/rock.png");
+}
+#nozyce{
+    background-image: url("images/scissors.png");
+}
+.panel {
+    width: 400px; 
+    margin: 15px 5px; 
+    padding: 15px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    border: 1px solid black;
+    font: 16px calibri;
+    letter-spacing: -1px;
+    border-radius: 7px;
+    display: block;
+    }
+form {
+    margin: 0;
+}
+label {
+    font-size: 16px;
+    width: 260px;
+    display: block;
+    padding: 10px 20px;
+    color: #FFF;
+}
+#login, #password, #register {
+    width: 360px; 
+    font-size: 22px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    }
+#sumbit-index {
+    width: 120px;
+    padding: 5px 13px;
+    border: 1px solid #000;
+    color: #FFF;
+    text-shadow: 0 0 1px #000;
+    background: #303845;
+    position:relative;
+    left: 180px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+#sumbit-index:hover{
+    color:#000;
+    background-color: #fff;
+    transition: all 0.5s ease-in;
+}
+
+.text-error{
+    font-size: 25px;
+    color:#F00;
+    font-weight: bold;
+}
+.text-error1{
+    font-size: 16px;
+    color:#F00;
+    font-weight: bold;
+}
+h1{
+    color: #FFF;
+}
+td{
+    border:  1px #000 solid;
+}
+.right-panel{
+    width: 17%; 
+    margin: 15px 5px; 
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    border: 1px solid black;
+    font: 16px calibri;
+    letter-spacing: -1px;
+    border-radius: 7px;
+    float:right;
+}
+a{
+    color:#fff;
+}
+a:hover{
+    font-size: 103%;
+    color:#C0C0C0;
+    transition: all 0.3s ease-in;
+}
+.footer{
+    width: 100%;
+    height: 25px;
+    font-size:15px;
+    color:#fff;
+    text-align: right;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+#pass-old, #pass-new, #pass-new-repeat{
+    width: 125px;
+}
+#change-pass{
+    text-align: left;
+}
+#sumbit-game{
+    width: 120px;
+    padding: 5px 13px;
+    border: 1px solid #000;
+    color: #FFF;
+    text-shadow: 0 0 1px #000;
+    background: #303845;
+    left: 180px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+#sumbit-game:hover{
+    color:#000;
+    background-color: #fff;
+    transition: all 0.5s ease-in;
+}
+#text-in-change-pass{
+    color:#fff;
+    margin-left: 15px;
+}
